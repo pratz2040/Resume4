@@ -1,0 +1,42 @@
+.custom_btnn{
+    background-color: var(--main-color) !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    padding: 5px 10px !important;
+    line-height: 35px !important;
+    min-width: 100px !important;
+    outline: none !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    padding-left: 20px !important;
+}
+
+.btn_iconcontainern{
+    color: black !important;    
+    background: white !important;
+    border-radius: 50px !important;
+    height: 50px !important;
+    width: 50px !important;
+    line-height: 29px !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.btn_iconcontainern > .MuisvgIcon-root{
+    font-size: 16px !important;
+}
+
+.btn_textn{
+    font-size: 20px !important;
+    text-transform: none !important;
+    text-align: right !important;
+    width: 100px !important;
+    margin-left: 0%;
+    margin-right: 0px;
+    color: black;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    
+}

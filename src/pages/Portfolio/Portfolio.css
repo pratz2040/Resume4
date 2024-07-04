@@ -1,0 +1,23 @@
+.port_info {
+    color: red !important;
+    font-weight: 1000 !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    text-align: center !important;
+    animation: pop-in 0.5s ease-out; /* Add this line for the popping animation */
+  }
+  
+  @keyframes pop-in {
+    0% {
+      transform: scale(0.5); /* Start at half the size */
+      opacity: 0; /* Optional: start with no opacity */
+    }
+    60% {
+      transform: scale(1.2); /* Scale up slightly more than normal size */
+      opacity: 1; /* Full opacity */
+    }
+    100% {
+      transform: scale(1); /* End at normal size */
+      opacity: 1; /* Full opacity */
+    }
+  }
+  
